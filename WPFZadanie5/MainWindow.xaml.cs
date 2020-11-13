@@ -39,11 +39,6 @@ namespace WPFZadanie5
                 Users.RemoveAt(UsersListView.SelectedIndex);
         }
 
-        private void UsersListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             Users.Add(new User { Name = "brak", Surname = "brak" });
